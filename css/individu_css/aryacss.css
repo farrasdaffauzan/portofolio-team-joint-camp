@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500;700&family=Open+Sans&display=swap');
+        
+:root {
+    --logo-size: 40px;
+}
+
+body {
+    background: #CCFFFF;
+}
+.navbar-brand img {
+    border-radius: 50%;
+}
+h1 {
+    font-family: "Ibarra Real Nova", Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.welcome {
+    font-family: "Ibarra Real Nova", Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+h1.welcome{
+    font-size: 100pt;
+}
+p.welcome{
+    margin-top: -30px;
+    font-size: 70pt;
+}
+footer {
+    background-color: #63c900;
+    margin-top: -1px;
+}
+.footer-svg{
+    width: 100%;
+}
+img.sm-icon{
+    height: var(--logo-size);
+    margin-left: (var(--logo-size)/2);
+    margin-right: (var(--logo-size)/2);
+}
+nav.navbar {
+    background: linear-gradient(180deg, rgb(247, 247, 247) 0%, rgb(252, 252, 252) 62%, rgba(255, 255, 255, 0.841) 82%, rgba(255, 255, 255, 0) 100%);
+}
+@media only screen and (max-width: 767px){
+    p.welcome{
+        margin-top: -30px;
+        font-size: 50pt;
+    }
+    .about hr{
+        position: absolute;
+    }
+}
