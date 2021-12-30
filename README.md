@@ -1,1 +1,0 @@
-# portofolio-team-joint-camp
